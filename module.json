@@ -11,16 +11,16 @@
   },
   "authors": [
     {
-      "name": "Wasp",
-      "url": "https://github.com/Haxxer",
-      "discord": "Wasp#2005"
+      "name": "Mezzarius",
+      "url": "https://github.com/Mezzarius",
+      "discord": "Mezzarius"
     }
   ],
   "esmodules": [
-    "dist/item-piles.js"
+    "dist/item-piles-mezz.js"
   ],
   "styles": [
-    "dist/item-piles.css"
+    "dist/item-piles-mezz.css"
   ],
   "languages": [
     {
@@ -99,7 +99,5 @@
   "socket": true,
   "url": "https://github.com/fantasycalendar/FoundryVTT-ItemPiles",
   "manifest": "https://github.com/fantasycalendar/FoundryVTT-ItemPiles/releases/latest/download/manifest.json",
-  "download": "https://github.com/fantasycalendar/FoundryVTT-ItemPiles/releases/latest/download/module.zip",
-  "readme": "https://github.com/fantasycalendar/FoundryVTT-ItemPiles/blob/master/README.md",
-  "bugs": "https://github.com/fantasycalendar/FoundryVTT-ItemPiles/issues"
-}
+  "download": "https://github.com/fantasycalendar/FoundryVTT-ItemPiles/releases/latest/download/module.zip"
+  }
