@@ -136,7 +136,7 @@ const CONSTANTS = {
 
 	PILE_DEFAULTS: {
 		// Core settings
-		enabled: false,
+		enabled: true,
 		type: "pile",
 		distance: 1,
 		macro: "",
@@ -161,9 +161,9 @@ const CONSTANTS = {
 		// Sharing settings
 		shareItemsEnabled: false,
 		shareCurrenciesEnabled: true,
-		takeAllEnabled: false,
+		takeAllEnabled: true,
 		splitAllEnabled: true,
-		activePlayers: false,
+		activePlayers: true,
 
 		// Container settings
 		closed: false,
@@ -355,3 +355,4 @@ CONSTANTS.HOOKS = {
 CONSTANTS.TABLE_UUID_REGEX = /@UUID\[(.*?)]{(.*?)}/g;
 
 export default CONSTANTS;
+
