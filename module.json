@@ -1,6 +1,6 @@
 {
-  "id": "item-piles",
-  "title": "Item Piles",
+  "id": "item-piles-mezz",
+  "title": "Item Piles (Mezz fork)",
   "description": "This module adds the ability for items to be dropped onto the ground, and then picked up.",
   "version": "100.0.0",
   "library": "false",
