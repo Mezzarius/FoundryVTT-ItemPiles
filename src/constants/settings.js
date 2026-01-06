@@ -448,7 +448,7 @@ const SETTINGS = {
 			hint: "ITEM-PILES.Settings.InvertSheetOpen.Hint",
 			scope: "client",
 			config: false,
-			default: false,
+			default: true,
 			type: Boolean
 		},
 
@@ -502,3 +502,4 @@ const SETTINGS = {
 }
 
 export default SETTINGS;
+
