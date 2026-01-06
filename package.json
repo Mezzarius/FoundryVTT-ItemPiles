@@ -1,13 +1,13 @@
 {
-  "name": "item-piles",
+  "name": "item-piles-mezz",
   "version": "1.0.0",
   "description": "A foundry module.",
   "license": "MIT",
   "private": true,
   "type": "module",
-  "author": "Fantasy Computerworks (https://github.com/fantasycalendar)",
+  "author": "Mezzarius",
   "contributors": [
-    "Wasp <adam@fantasy-calendar.com> (https://github.com/haxxer)"
+    "Mezzarius"
   ],
   "imports": {
     "#runtime/*": "@typhonjs-fvtt/runtime/*",
