@@ -33607,7 +33607,7 @@ function registerSettings() {
     label: "ITEM-PILES.Settings.Configure.Label",
     hint: "ITEM-PILES.Settings.Configure.Hint",
     icon: "fas fa-cog",
-    type: SettingsApp,
+    type: SettingsShim,
     restricted: false
   });
   for (let [name, data2] of Object.entries(SETTINGS.GET_DEFAULT())) {

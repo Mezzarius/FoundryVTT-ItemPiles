@@ -2,7 +2,7 @@ import CONSTANTS from "./constants/constants.js";
 import SETTINGS from "./constants/settings.js";
 import * as Helpers from "./helpers/helpers.js";
 import { SYSTEMS } from "./systems.js";
-import { SettingsApp } from "./applications/settings-app/settings-app.js";
+import { SettingsShim, SettingsApp } from "./applications/settings-app/settings-app.js";
 import { TJSDialog } from "#runtime/svelte/application";
 import CustomDialog from "./applications/components/CustomDialog.svelte";
 
@@ -13,7 +13,7 @@ export function registerSettings() {
 		label: "ITEM-PILES.Settings.Configure.Label",
 		hint: "ITEM-PILES.Settings.Configure.Hint",
 		icon: "fas fa-cog",
-		type: SettingsApp,
+		type: SettingsShim,
 		restricted: false
 	});
 
