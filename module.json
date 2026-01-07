@@ -1,5 +1,5 @@
 {
-  "id": "item-piles-mezz",
+  "id": "item-piles",
   "title": "Item Piles (Mezz fork)",
   "description": "This module adds the ability for items to be dropped onto the ground, and then picked up.",
   "version": "100.0.0",
@@ -17,10 +17,10 @@
     }
   ],
   "esmodules": [
-    "dist/item-piles-mezz.js"
+    "dist/item-piles.js"
   ],
   "styles": [
-    "dist/item-piles-mezz.css"
+    "dist/item-piles.css"
   ],
   "languages": [
     {
